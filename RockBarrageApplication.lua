@@ -1,4 +1,4 @@
--- HiddenDevs application. 
+-- MADE BY ADAMP240. HERE IS A VIDEO SHOWING THIS SCRIPT IN ACTION: https://gyazo.com/965d929bf8cba32ba7788a1998becec9
 -- Force ability for lightsaber game - handled as a server-owned smart-cast ability. Activate in game by equipping a saber (E on PC) and then press 5 key.
 -- The server checks for one valid enemy in front of the caster before the cast starts, then keeps control of the animation timing, rock spawning, hit checks, damage, parries, knockback, ragdolling, and cleanup.
 -- The basic flow is: find target -> lock caster -> summon rocks behind caster -> wait for the throw marker -> launch rocks one at a time -> apply hit logic -> remove any leftover objects.
